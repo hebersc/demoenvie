@@ -44,6 +44,11 @@ body{
     margin-bottom: 60px;
 }
 
+.portada h1::first-letter{
+    color: crimson;
+    font-size: 90px;
+}
+
 .menu{
     font-size: 24px;
     display: inline-block;
@@ -54,6 +59,13 @@ body{
 .menu li{
     display: inline-block;
     margin-left: 30px;
+}
+
+.menu li::before{
+    content: 'ℴ';
+    font-size: 50px;
+    line-height: 20px;
+    color: blue;
 }
 
 .logotipo{
