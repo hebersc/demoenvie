@@ -26,8 +26,6 @@ body{
 
 .guitarras{
     color: #1F313C;
-    width: 800px;
-    margin: auto;
 }
 
 .guitarras h2{
@@ -39,8 +37,7 @@ body{
     background-image: url('../images/background.png');
     color: white;
     padding: 20px;
-    width: 800px;
-    margin: auto;
+    
 }
 
 .portada button{
@@ -62,8 +59,10 @@ body{
 }
 
 .header{
+
+}
+
+.contenedor{
     width: 800px;
     margin: auto;
 }
-
-
