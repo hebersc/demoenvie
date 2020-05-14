@@ -73,9 +73,46 @@
                     <span>heber.surco.ch@gmail.com</span>
                 </a>
             </div>
-            <div class="formulario">
-                formulario
-            </div>
+            <form class="formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" required placeholder="Ingresa tu nombre" id="nombre" name="nombre">
+                <label for="email">E-mail</label>
+                <input type="email" required placeholder="Ingrea tu correo" id="email" name="email">
+
+                <div class="sexo">
+                    <label for="mujer"> 
+                        <input type="radio" name="sexo" id="mujer" checked value="mujer"> 
+                        Mujer
+                    </label>
+                    <label for="hombre"> 
+                        <input type="radio" name="sexo" id="hombre" value="hombre">
+                        Hombre
+                    </label>
+                </div>
+                <div class="intereses">
+                    <label for="cotizacion">
+                        <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion">
+                        Cotización
+                    </label>
+                    <label for="reclamos">
+                        <input type="checkbox" id="reclamos" name="intereses" value="reclamos">
+                        Reclamos
+                    </label>
+                    <label for="comentarios">
+                        <input type="checkbox" id="comentarios" name="intereses" value="comentarios">
+                        Comentarios
+                    </label>
+                    <label for="otros">
+                        <input type="checkbox" id="otros" name="intereses" value="otros">
+                        Otros
+                    </label>
+                </div>
+                <div>
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
         </div>
     </footer>
 </body>
